@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.navbar{
+    height: 55px;
+    background-color: #F55A5A;
+    display: flex;
+    justify-content: space-around;
+}
+.nav--logo{
+    height: 30px;
+    margin: auto 10px;
+}
+.nav-title{
+    height: 16px;
+}
+.nav--info{
+    display: flex;
+    color: #fff;
+}
+.card{
+    height: 250px;
+    margin: 15px auto;
+    display: flex;
+    max-width: 800px;
+}
+.card--thum{
+    padding: 15px;
+    border-radius: 10px;
+}
+.location--logo{
+    width: 15px;
+    margin: auto 10px;
+}
+.card--info{
+    margin: auto 10px;
+
+}
+.card--title{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.google--map{
+    margin: auto 20px;
+    color: rgb(128, 124, 124);
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    height: 80pxpx;
+    background-color: antiquewhite;
+}
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    /* padding: 10px; */
+    margin: 10px;
+}
+.footer p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.footer-links{
+    display: flex;
+    justify-content: center;
+}
+.footer-links > a{
+    margin: auto 10px;
+    color: #000;
+    text-decoration: none;
+}
