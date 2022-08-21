@@ -1,12 +1,13 @@
 import React from 'react'
 
 export default function card(props) {
+    console.log(props.item.cardimg)
     return (
         <div className='card'>
-            <img src={`../images/${props.item.cardimg}`} className='card--thum'></img>
+            <img src={`images/${props.item.cardimg}`} className='card--thum'></img>
             <div className='card--info'>
                 <div className='card--title'>
-                    <img src='../images/location.png' className='location--logo'></img>
+                    <img src='images/location.png' className='location--logo'></img>
                     <p>{props.item.cityname}</p>
                     <a href='#' className='google--map'>view on google map</a>
                 </div>
